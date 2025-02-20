@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  AssumeRoleAndCallIdentity:
+  UploadECR:
     runs-on: ubuntu-latest
     steps:
       - name: Git clone the repository
